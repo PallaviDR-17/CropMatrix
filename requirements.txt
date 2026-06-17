@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+python-jose[cryptography]
+streamlit
+scikit-learn
+opencv-python
+pandas
+numpy

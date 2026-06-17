@@ -1,0 +1,6 @@
+temperature,humidity,soil_moisture,crop
+25,60,40,Maize
+30,50,20,Wheat
+22,70,60,Rice
+28,65,35,Maize
+18,80,70,Rice
