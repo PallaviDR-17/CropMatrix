@@ -94,6 +94,12 @@ cropmatrix/
 ---
 
 ## ⚙️ Installation & Setup
+📥 Clone the Repository
+
+Clone the project to your local machine:
+
+git clone https://github.com/PallaviDR-17/CropMatrix.git
+cd CropMatrix
 
 ### Create Virtual Environment
 
@@ -127,13 +133,8 @@ pip install -r requirements.txt
 
 ```sql
 CREATE DATABASE cropmatrix;
-
-CREATE USER crop_user
-WITH PASSWORD 'croppass';
-
-GRANT ALL PRIVILEGES
-ON DATABASE cropmatrix
-TO crop_user;
+CREATE USER your_username WITH PASSWORD 'your_password';
+GRANT ALL PRIVILEGES ON DATABASE cropmatrix TO your_username;
 ```
 
 Update database credentials in:
@@ -193,16 +194,6 @@ Provide:
 
 CropMatrix analyzes environmental conditions and recommends the most suitable crop.
 
-Example:
-
-| Temperature | Humidity | Soil Moisture | Recommendation |
-| ----------- | -------- | ------------- | -------------- |
-| 30°C        | 80%      | 75%           | Rice           |
-| 24°C        | 60%      | 50%           | Wheat          |
-| 26°C        | 65%      | 55%           | Maize          |
-| 32°C        | 55%      | 35%           | Cotton         |
-| 25°C        | 70%      | 65%           | Sugarcane      |
-
 ---
 
 ## 🌟 Key Highlights
@@ -213,18 +204,6 @@ Example:
 * FastAPI REST APIs
 * Interactive Dashboard
 * Production-Ready Architecture
-
----
-
-## 🔮 Future Enhancements
-
-* ESP32 / Arduino IoT Integration
-* Weather API Integration
-* Crop Disease Detection using Computer Vision
-* Fertilizer Recommendation System
-* Mobile Application (Flutter)
-* Cloud Deployment (AWS, Azure, Railway)
-* Predictive Yield Analytics
 
 ---
 
